@@ -1,0 +1,11 @@
+{
+  "name": "mithril-webpack",
+  "version": "1.0.0",
+  "description": "Testing Mithril with Webpack",
+  "scripts": {
+    "start": "webpack ./src/index.js --output-path ./bin -d --watch"
+  },
+  "dependencies": {
+    "mithril": "^2.2.2"
+  }
+}
